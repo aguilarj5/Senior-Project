@@ -1,0 +1,25 @@
+var str;
+str = "";
+if(canCollide){
+
+    str = get_string("What must the initialization be so that the following fragment prints out the integers -3 -2 -1 ?
+for ( _______; j < 0; j++    )
+  System.out.print( j );
+System.out.println( );
+
+a. int j = 0
+b. int j < 0
+c. int j = -3
+d. int j = -4
+ ","");
+
+    if( str == "c"){
+        with(other){
+            global.collisions += 250;
+            instance_destroy();
+        }      
+    } else show_message("Try Again");
+
+
+//replace get_string with get_integer to get integer input.
+//replace question in quotations with any question you would like.
